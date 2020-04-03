@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="endModuleTask.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <title>User Profiles</title>
+</head>
+<body>
+    <nav class="navbar navbar-inverse">
+        <div class="container-fluid">
+          <div class="navbar-header">
+            <a class="navbar-brand" href="#">User Profiles</a>
+          </div>
+          <ul class="nav navbar-nav">
+            <li class="active"><a href="#">Home</a></li>
+            <li><a href="#">News Feed</a></li>
+            <li><a href="#">Users</a></li>
+            <li><a href="#">Admin</a></li>
+          </ul>
+        </div>
+      </nav>
+        <div class="section">
+          <div class="container-fluid">
+              <div class="row">
+                <div class="col-md-5 bt">
+                  <div class="card-img-overlay text-center">
+                  </br>
+                  </br>
+                      <img src="rickie_fowler.webp" class="rounded-circle profile p-1 mb-5 bg-white rounded" alt="Image of Rickie Fowler" width="260px" height="260px"/>
+                  </div>
+                  </br>
+                  <div class="col pt-5 text-center">
+                      <h3 class="text-center">Rickie Fowler</h3>
+                      <p>Email Address: rickiefowler@example.com</p>
+                      <p>CellPhone Number: 035 633 0054</p>
+                      <p>Landline Number: 079 774 1100</p>
+                      <button type="button" class="btn btn-primary img-overlay text-center" data-toggle="modal" data-target="#myModal">More Info</button>
+                      <div class="modal" id="myModal">
+                          <div class="modal-dialog">
+                              <div class="modal-content">
+                                  <div class="modal-header">
+                                      <h4 class="modal-title text-success">User Information</h4>
+                                      <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                  </div>
+                                  <div class="modal-body">  
+                                      <form>
+                                          <div class="form-group row">
+                                          <label for="Home_Address" class="col-sm-4 col-form-label">Home Address:</label>
+                                          <div class="col-sm-8">
+                                          <input type="text" class="form-control" name="Home_Address" placeholder="Enter your Home Address" required>
+                                          </div>
+                                          </div>
+                                          <div class="form-group row">
+                                          <label for="Kin_Name" class="col-sm-4 col-form-label">Kin Name:</label>
+                                          <div class="col-sm-8">
+                                          <input type="text" class="form-control" name="Kin_Name" placeholder="Enter kin name" required>
+                                          </div>
+                                          </div>
+                                          <div class="form-group row">
+                                          <label for="Kin_Relationship" class="col-sm-4 col-form-label">Kin relationship:</label>
+                                          <div class="col-sm-8">
+                                          <select class="custom-select mt-2" name="Kin_Relationship" required></br>
+                                              <option value="Married">Married</option>
+                                              <option value="Single">Single</option>
+                                          </select>
+                                          </div>
+                                          </div>
+                                          <div class="form-group row">
+                                          <label for="Kin_Cellphone" class="col-sm-4 col-form-label">Kin Cell Number:</label>
+                                          <div class="col-sm-8">
+                                          <input type="tel" class="form-control" name="Kin_Cellphone" placeholder="Enter kin cellphone number" required></br>
+                                          </div>
+                                          </div>
+                                          <div class="form-group row">
+                                          <label for="Kin_Email" class="col-sm-4 col-form-label">Kin Email:</label>
+                                          <div class="col-sm-8">
+                                          <input type="email" class="form-control" name="Kin_Email" placeholder="Enter kin Email" required>
+                                          </div>
+                                          </div>
+                                      </form>
+                                  </div>
+                                  <div class="modal-footer">
+                                    <button type="button" class="btn btn-success">Create User</button>
+                                    <button type="button" class="btn btn-danger">Delete User</button>
+                                    <button
+                                      type="button"
+                                      class="btn btn-dark"
+                                      data-dismiss="modal"
+                                    >
+                                      Close
+                                    </button>
+                                  </div>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+          </div>
+                <div class="col-md-5 bt">
+                  <div class="card-img-overlay text-center">
+                  </br>
+                  </br>
+                      <img src="phil-mickelson.jpg" class="rounded-circle profile p-1 mb-5 bg-white rounded" alt="Image of Phil Mickelson" width="260px" height="260px"/>
+                  </div>
+                  </br>
+                  <div class="col pt-5 text-center">
+                      <h3 class="text-center">Phil Mickelson</h3>
+                      <p>Email Address: philmickelson@example.com</p>
+                      <p>CellPhone Number: 035 780 5211</p>
+                      <p>Landline Number: 079 410 9985</p>
+                      <button type="button" class="btn btn-primary img-overlay text-center" data-toggle="modal" data-target="#myModal">More Info</button>
+                      <div class="modal" id="myModal">
+                          <div class="modal-dialog">
+                              <div class="modal-content">
+                                  <div class="modal-header">
+                                      <h4 class="modal-title text-success">User Information</h4>
+                                      <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                  </div>
+                                  <div class="modal-body">  
+                                      <form>
+                                          <div class="form-group row">
+                                          <label for="Home_Address" class="col-sm-4 col-form-label">Home Address:</label>
+                                          <div class="col-sm-8">
+                                          <input type="text" class="form-control" name="Home_Address" placeholder="Enter your Home Address" required>
+                                          </div>
+                                          </div>
+                                          <div class="form-group row">
+                                          <label for="Kin_Name" class="col-sm-4 col-form-label">Kin Name:</label>
+                                          <div class="col-sm-8">
+                                          <input type="text" class="form-control" name="Kin_Name" placeholder="Enter kin name" required>
+                                          </div>
+                                          </div>
+                                          <div class="form-group row">
+                                          <label for="Kin_Relationship" class="col-sm-4 col-form-label">Kin relationship:</label>
+                                          <div class="col-sm-8">
+                                          <select class="custom-select mt-2" name="Kin_Relationship" required></br>
+                                              <option value="Married">Married</option>
+                                              <option value="Single">Single</option>
+                                          </select>
+                                          </div>
+                                          </div>
+                                          <div class="form-group row">
+                                          <label for="Kin_Cellphone" class="col-sm-4 col-form-label">Kin Cell Number:</label>
+                                          <div class="col-sm-8">
+                                          <input type="tel" class="form-control" name="Kin_Cellphone" placeholder="Enter kin cellphone number" required></br>
+                                          </div>
+                                          </div>
+                                          <div class="form-group row">
+                                          <label for="Kin_Email" class="col-sm-4 col-form-label">Kin Email:</label>
+                                          <div class="col-sm-8">
+                                          <input type="email" class="form-control" name="Kin_Email" placeholder="Enter kin Email" required>
+                                          </div>
+                                          </div>
+                                      </form>
+                                  </div>
+                                  <div class="modal-footer">
+                                    <button type="button" class="btn btn-success">Create User</button>
+                                    <button type="button" class="btn btn-danger">Delete User</button>
+                                    <button
+                                      type="button"
+                                      class="btn btn-dark"
+                                      data-dismiss="modal"
+                                    >
+                                      Close
+                                    </button>
+                                  </div>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+          </div>  
+                <div class="col-md-5 bt">
+                  <div class="card-img-overlay text-center">
+                  </br>
+                  </br>
+                      <img src="Tiger_Woods.webp" class="rounded-circle profile p-1 mb-5 bg-white rounded" alt="Image of Tiger Woods" width="260px" height="260px"/>
+                  </div>
+                  </br>
+                  <div class="col pt-5 text-center">
+                      <h3 class="text-center">Tiger Woods</h3>
+                      <p>Email Address: tigerwoods@example.com</p>
+                      <p>CellPhone Number: 035 824 6911</p>
+                      <p>Landline Number: 079 741 3300</p>
+                      <button type="button" class="btn btn-primary img-overlay text-center" data-toggle="modal" data-target="#myModal">More Info</button>
+                      <div class="modal" id="myModal">
+                          <div class="modal-dialog">
+                              <div class="modal-content">
+                                  <div class="modal-header">
+                                      <h4 class="modal-title text-success">User Information</h4>
+                                      <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                  </div>
+                                  <div class="modal-body">  
+                                      <form>
+                                          <div class="form-group row">
+                                          <label for="Home_Address" class="col-sm-4 col-form-label">Home Address:</label>
+                                          <div class="col-sm-8">
+                                          <input type="text" class="form-control" name="Home_Address" placeholder="Enter your Home Address" required>
+                                          </div>
+                                          </div>
+                                          <div class="form-group row">
+                                          <label for="Kin_Name" class="col-sm-4 col-form-label">Kin Name:</label>
+                                          <div class="col-sm-8">
+                                          <input type="text" class="form-control" name="Kin_Name" placeholder="Enter kin name" required>
+                                          </div>
+                                          </div>
+                                          <div class="form-group row">
+                                          <label for="Kin_Relationship" class="col-sm-4 col-form-label">Kin relationship:</label>
+                                          <div class="col-sm-8">
+                                          <select class="custom-select mt-2" name="Kin_Relationship" required></br>
+                                              <option value="Married">Married</option>
+                                              <option value="Single">Single</option>
+                                          </select>
+                                          </div>
+                                          </div>
+                                          <div class="form-group row">
+                                          <label for="Kin_Cellphone" class="col-sm-4 col-form-label">Kin Cell Number:</label>
+                                          <div class="col-sm-8">
+                                          <input type="tel" class="form-control" name="Kin_Cellphone" placeholder="Enter kin cellphone number" required></br>
+                                          </div>
+                                          </div>
+                                          <div class="form-group row">
+                                          <label for="Kin_Email" class="col-sm-4 col-form-label">Kin Email:</label>
+                                          <div class="col-sm-8">
+                                          <input type="email" class="form-control" name="Kin_Email" placeholder="Enter kin Email" required>
+                                          </div>
+                                          </div>
+                                      </form>
+                                  </div>
+                                  <div class="modal-footer">
+                                    <button type="button" class="btn btn-success">Create User</button>
+                                    <button type="button" class="btn btn-danger">Delete User</button>
+                                    <button
+                                      type="button"
+                                      class="btn btn-dark"
+                                      data-dismiss="modal"
+                                    >
+                                      Close
+                                    </button>
+                                  </div>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+          </div>              
+                  <div class="col-md-5 bt">
+                          <div class="card-img-overlay text-center">
+                          </br>
+                          </br>
+                              <img src="Cristiano_Ronaldo.jpg" class="rounded-circle profile p-1 mb-5 bg-white rounded" alt="Image of Cristiano Ronaldo" width="260px" height="260px"/>
+                          </div>
+                          </br>
+                          <div class="col pt-5 text-center">
+                              <h3 class="text-center">Cristiano Ronaldo</h3>
+                              <p>Email Address: cr7@example.com</p>
+                              <p>CellPhone Number: 035 985 4733</p>
+                              <p>Landline Number: 079 562 8766</p>
+                              <button type="button" class="btn btn-primary img-overlay text-center" data-toggle="modal" data-target="#myModal">More Info</button>
+                              <div class="modal" id="myModal">
+                                  <div class="modal-dialog">
+                                      <div class="modal-content">
+                                          <div class="modal-header">
+                                              <h4 class="modal-title text-success">User Information</h4>
+                                              <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                          </div>
+                                          <div class="modal-body">  
+                                              <form>
+                                                  <div class="form-group row">
+                                                  <label for="Home_Address" class="col-sm-4 col-form-label">Home Address:</label>
+                                                  <div class="col-sm-8">
+                                                  <input type="text" class="form-control" name="Home_Address" placeholder="Enter your Home Address" required>
+                                                  </div>
+                                                  </div>
+                                                  <div class="form-group row">
+                                                  <label for="Kin_Name" class="col-sm-4 col-form-label">Kin Name:</label>
+                                                  <div class="col-sm-8">
+                                                  <input type="text" class="form-control" name="Kin_Name" placeholder="Enter kin name" required>
+                                                  </div>
+                                                  </div>
+                                                  <div class="form-group row">
+                                                  <label for="Kin_Relationship" class="col-sm-4 col-form-label">Kin relationship:</label>
+                                                  <div class="col-sm-8">
+                                                  <select class="custom-select mt-2" name="Kin_Relationship" required></br>
+                                                      <option value="Married">Married</option>
+                                                      <option value="Single">Single</option>
+                                                  </select>
+                                                  </div>
+                                                  </div>
+                                                  <div class="form-group row">
+                                                  <label for="Kin_Cellphone" class="col-sm-4 col-form-label">Kin Cell Number:</label>
+                                                  <div class="col-sm-8">
+                                                  <input type="tel" class="form-control" name="Kin_Cellphone" placeholder="Enter kin cellphone number" required></br>
+                                                  </div>
+                                                  </div>
+                                                  <div class="form-group row">
+                                                  <label for="Kin_Email" class="col-sm-4 col-form-label">Kin Email:</label>
+                                                  <div class="col-sm-8">
+                                                  <input type="email" class="form-control" name="Kin_Email" placeholder="Enter kin Email" required>
+                                                  </div>
+                                                  </div>
+                                              </form>
+                                          </div>
+                                          <div class="modal-footer">
+                                            <button type="button" class="btn btn-success">Create User</button>
+                                            <button type="button" class="btn btn-danger">Delete User</button>
+                                            <button
+                                              type="button"
+                                              class="btn btn-dark"
+                                              data-dismiss="modal"
+                                            >
+                                              Close
+                                            </button>
+                                          </div>
+                                      </div>
+                                  </div>
+                              </div>
+                          </div>
+                  </div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+</body>
+</html>
